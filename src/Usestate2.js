@@ -1,8 +1,11 @@
 
-import React ,{useState} from 'react'
+import React ,{useState ,useEffect} from 'react'
 
 function Mohan() {
     const [resource,setResource] = useState ('Posts');
+    useEffect(()=>{
+      console.log('render')
+    });
   return (
     <>
     <div>
