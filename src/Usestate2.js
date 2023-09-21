@@ -2,7 +2,7 @@
 import React ,{useState ,useEffect} from 'react'
 
 function Mohan() {
-    const [resource,setResource] = useState ('Posts');
+    const [resource,setResource] = useState ('posts');
     useEffect(()=>{
       console.log('render')
     });
