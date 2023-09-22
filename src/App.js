@@ -1,11 +1,12 @@
 //import logo from './logo.svg';
 import './App.css';
-import Comp from './Comp';
-import Classcomp from './classcomp';
-import User from './usestate';
-import StyleElement from './Useref';
-import Mohan from './Usestate2';
-import Counter from './Usereducer';
+import Comp from './component/Comp';
+import Classcomp from './component/classcomp';
+import User from './component/usestate';
+import StyleElement from './component/Useref';
+import Mohan from './component/Usestate2';
+import Counter from './component/Usereducer';
+import Phone from './component/Props';
 
 
 function App() {
@@ -17,8 +18,8 @@ function App() {
       <Mohan/>
       <StyleElement/>
       <Counter/>
-   
-    
+      <Phone name= " Iphone"  model ="13"/>
+      
     </div> 
   );
 }
