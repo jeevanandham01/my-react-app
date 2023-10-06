@@ -14,7 +14,9 @@ import Stateless from './component/New-example/Stateless';
 import Name from './component/New-example/Component';
 import Visit from './component/New-example/Component2';
 import Counter1 from'./component/New-example/Stateful-Component';
-
+import Statereact from './component/New-example/State -react';
+import Event2 from './component/New-example/Event';
+import Lifecycle from './component/New-example/Lifecycle';
 
 function App() {
   return (
@@ -33,8 +35,10 @@ function App() {
 <Name/> 
 <Visit name="YAASH"/> 
 <Counter1/>
-
-    </div> 
+<Statereact/>
+<Event2/>
+<Lifecycle/>
+ </div> 
   );
 }
 
